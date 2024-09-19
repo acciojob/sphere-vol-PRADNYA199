@@ -10,7 +10,7 @@ function volume_sphere(event) {
 	else{
 		var volume = (4/3) * Math.PI * Math.pow(r, 3);
 		volume = volume.toFixed(4);
-		document.getElementById("volume").value=valume
+		document.getElementById("volume").value=volume;
 	}
   
 } 
